@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 200px;
+  /* background-repeat: no-repeat; */
+  /* background: #E5E5E5;
+   */
+   background-color: #282828;
+   padding-left: 80px ;
+   padding-right: 80px;
+  /* background-blend-mode: darken; */
+  /* background-size: 100%; */
+  /* background-image: url("background.jpg"); */
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li a {
+  text-decoration: none;
+}
+.logo img {
+  height: 50.4px;
+  background-size: 100%;
+}
+.navbar {
+  height: 150.4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links .bb a {
+  padding: 0;
+}
+.title {
+  display: flex;
+}
+.title .name {
+  text-transform: uppercase;
+  color: aliceblue;
+  margin: 7.62px;
+}
+.title div {
+  flex-direction: row;
+}
+.title div a {
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.links li a {
+  display: block;
+  box-sizing: border-box;
+  height: 50.4px;
+  font-size: 15px;
+  padding: 16px;
+}
+
+.links {
+  display: block;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+  /* href="index.html" */
+  align-items: center;
+  justify-content: center;
+}
+.links li {
+  display: block;
+  box-sizing: border-box;
+  height: 50.4px;
+
+  font-size: 15px;
+
+  /* color: red; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.down {
+  padding: 16px;
+  width: 112px;
+  text-align: center;
+}
+.navlinks {
+  gap: 40px;
+}
+
+.navlinks .links {
+  display: flex;
+}
+.navlinks ul li {
+  flex-direction: row;
+}
+.navlinks ul li a {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.navlinks ul li a:hover {
+  /* background-color: red; */
+ color: rgb(7, 253, 253);
+}
+/* .navlinks ul li:hover {
+  background-color: red;
+  color: aliceblue;
+} */
+.down a {
+  text-align: center;
+  width: 110px;
+}
+
+.down div {
+  display: none;
+}
+
+.drop {
+  display: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.navlinks .links .drop li a {
+  color: aliceblue;
+}
+.down:hover .drop {
+  display: block;
+  padding: 0;
+  margin-left: -15.3px;
+  margin-top: 16.8px;
+  overflow: hidden;
+  width: 112px;
+  color: aliceblue;
+  background-color: black;
+}
+/* .down:hover::after {
+  content: "GAMES";
+  position: absolute;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 10px;
+  width: 110px;
+  height: 30.4px;
+  padding-top: 10px;
+  background-color: red;
+  color: aliceblue;
+} */
+/* .navlinks .down .aa:hover::after {
+  content: "";
+  background-color: red;
+  color: aliceblue;
+} */
+/* .navlinks .links .dd .drop li a:hover .navlinks .links .aa {
+  background-color: gray;
+  color: aliceblue;
+} */

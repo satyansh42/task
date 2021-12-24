@@ -1,0 +1,78 @@
+.dwn {
+  /* margin-top: 100px; */
+  display: grid;
+  grid-template-columns: 60% 40%;
+  /* flex-direction: row; */
+  width: 1117px;
+  height: 560px;
+  /* justify-content: center; */
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 2px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+}
+.txt {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 200px; */
+  width: 500px;
+  /* margin-right: 93px; */
+  margin-left: 62px;
+  /* overflow: visible; */
+}
+.txt h2 {
+  color: #30fbef;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  
+}
+.txt p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+
+  /* 1 */
+
+  color: #ffffff;
+}
+/* .ig {
+  display: flex;
+  width: 700px;
+  height: 731.96px;
+  margin-right: 150px;
+}
+.download .ig {
+  position: absolute;
+  width: 700px;
+  margin-right: 89px;
+  height: 731.96px;
+  left: 633px;
+  
+  top: 3015.12px; 
+
+  background-image: url("./Phone 1.svg");
+  transform: rotate(-20.58deg);
+} */
+.ig{
+  position: relative;
+}
+.ig img{
+  width: 700px;
+  height: 731.96px;
+  /* margin-right: 200px; */
+  position: absolute;
+  /* top: 3015.12px;  */
+  /* bottom: -2650px; */
+  /* left: 650px; */
+  /* top: 0px; */
+  bottom: -375px;
+  left:-180px;
+  
+
+}

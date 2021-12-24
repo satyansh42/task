@@ -1,0 +1,31 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  padding-right: 41px;
+}
+.one h2 {
+  font-size: 80px;
+  line-height: 110%;
+  color: #30fbef;
+  padding: 0;
+  /* margin: 0; */
+  margin-bottom: 20px;
+}
+.one p {
+  color: white;
+  font-size: 18px;
+  line-height: 160%;
+}
+.two {
+  display: flex;
+}
+.two img {
+  width: 431px;
+  /* height: 485px; */
+}

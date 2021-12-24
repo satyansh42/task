@@ -1,0 +1,160 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  /* padding: 55px; */
+  margin: 0;
+  /* font-family: 'Ubuntu', sans-serif;  text-align: center; */
+  /* font-family: Now; */
+  /* font-family: "now-regular", sans-serif; */
+  /* font-family: Now; */
+  font-family: "now-light-3", sans-serif;
+  /* font-style: normal; */
+  /* font-weight: 200; */
+  /* background-color: rgb(2, 2, 2); */
+  letter-spacing: 0.01em;
+  line-height: 180%;
+  color: #30fbef;
+}
+.try {
+  padding-top: 50px;
+}
+.pr {
+  color: white;
+}
+.footer section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer .mainFooter div {
+  /* display: flex;
+  flex-direction: column; */
+  padding: 50px;
+  /* justify-content: space-evenly; */
+}
+.log h2 li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0px;
+  /* justify-content: center; */
+}
+.log li {
+  list-style: none;
+  padding-bottom: 30px;
+  /* line-gap-override: 10px; */
+  /* -webkit-box-align: center; */
+}
+.log li a {
+  /* -webkit-box-align: center; */
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 10px;
+  color: #30fbef; /* margin-top: -30px; */
+}
+.mainFooter {
+  padding-left: 80px;
+  padding-right: 80px;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: rgb(134, 133, 133);
+}
+.log img {
+  height: 80px;
+  -webkit-box-align: center;
+}
+ul {
+  list-style: none;
+  color: #30fbef;
+}
+.footer ul li {
+  padding: 3px;
+  display: flex;
+  -webkit-box-align: center;
+}
+/* ul li img {
+  
+} */
+.footer ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #30fbef;
+  font-size: 14px;
+  /* margin-left: 8px; */
+  /* padding: 2px; */
+
+  /* vertical-align: middle; */
+  padding-bottom: 5px;
+  /* margin-top: -5px; */
+  text-align: center;
+}
+.games ul li {
+  padding-bottom: 10px;
+}
+.games ul li img {
+  height: 16px;
+}
+.social ul li {
+  padding-bottom: 10px;
+}
+.social ul li img {
+  height: 16px;
+}
+.download ul li img {
+  width: 200px;
+  /* background-color: white; */
+}
+.download h2 {
+  padding-left: 24px;
+  /* font-size: 5px; */
+}
+/* .download ul li {
+  padding: 0;
+  margin-left: -7px;
+} */
+.creditFooter {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 150px, 0px, 0px, 150px; */
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  
+  /* color: aliceblue; */
+  /* height: 150px; */
+}
+/* .creditFooter div {
+  margin: auto;
+  margin: 0, 50px, 50px, 0;
+} */
+.creditFooter div div {
+  display: flex;
+}
+.creditFooter div div div {
+  display: flex;
+}
+.creditFooter div div div img {
+  height: 50px;
+}
+.prt {
+  padding: 16px;
+}
+/* .c{
+  font-size: medium;
+} */
+.c {
+  font-size: small;
+  margin: auto;
+  padding-right: 500px;
+  /* padding-bottom: 50px; */
+}
+.games ul li a:hover {
+  color: gray;
+}
+.social ul li a:hover {
+  color: gray;
+}
+.footer h2 {
+  padding-bottom: 50px;
+  margin: 0;
+}
